@@ -69,6 +69,21 @@
 /obj/item/mod/module/springlock/contractor/no_complexity
 	complexity = 0
 
+/obj/item/mod/module/stealth/contractor
+	name = "MOD Ghost contractors cloaking module"
+	desc = "GC cloaking module is an experimental complete retrofitting of the suit made by one of the syndicate scientist, \
+		his technology was stolen and used by contractors for their purposes, \
+		no one knows truly how module was stolen, and where is scientist right now.. \
+        The only thing they fear is you.. you feel their fear, you are contractor, you are the danger in the dark."
+	icon_state = "cloak_contractor"
+	icon = 'modular_nova/modules/contractor/icons/modsuit_modules.dmi'
+	bumpoff = FALSE
+	removable = FALSE
+	active_power_cost = DEFAULT_CHARGE_DRAIN * 0.5
+	cooldown_time = 3 SECONDS
+	stealth_alpha = 40
+	complexity = 0
+
 /obj/item/mod/module/scorpion_hook
 	name = "MOD SCORPION hook module"
 	desc = "A module installed in the wrist of a MODSuit, this highly \
